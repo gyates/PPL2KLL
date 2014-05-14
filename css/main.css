@@ -1,0 +1,98 @@
+body {
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  letter-spacing: 2px;
+  width:95%;
+}
+
+.underline {
+  margin-top: -28px;
+}
+  
+
+.instructions {
+  font-family: 'Vollkorn', serif;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.row {
+  margin-top: 15px;
+}
+
+.lipstick {
+  float: left;
+  width: 33px;
+  height: 33px;
+  background: url(http://icons.iconarchive.com/icons/mozco/symbolic-objects/32/Lipstick-2-icon.png);
+  display: none;
+}
+
+.cancel {
+  vertical-align: middle;
+  display: none;
+}
+
+.hitEntry {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.addHit {
+  font-size: 130%;
+  color: #8D8D8D;
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+  background-color: #FFF;
+  width: 200px;
+  height: 20px;
+  padding: 20px 15px;
+  border: 1px solid #8D8D8D;
+  }
+
+.addHit:focus {
+  border: 1px solid black;
+  outline: none;
+}
+
+.addHit:focus::-webkit-input-placeholder {
+  color:transparent;
+}
+
+.addHit::placeholder {
+  color: #CCCCCC;
+}
+
+.lips {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: -5px;
+  left: 200px;
+  display: none;
+}
+
+.cancelled {
+    position: relative;
+}
+.cancelled::after {
+    /*border-top: 5px solid black;*/
+    background-image: url("../images/underline.png");
+    content: "my bad";
+    text-align: right;
+    font-size: 50%;
+    left: 100px;
+    position: absolute;
+    right: 100px;
+    top: 15%;
+    width: 80%;
+}
+
+hr {
+  width: 220px;
+}
+
+a {
+  text-decoration: none;
+  color: #8D8D8D;
+}

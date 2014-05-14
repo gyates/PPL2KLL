@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Inspired by Steve Buscemi's character in the movie Billy Madison, this app allows you to list out the people who have done you wrong and track whether or not you're revenge is complete.">
+    <meta name="author" content="Gavin Yates">
+
+	<title>People to Kill: Inspired by Billy Madison</title>
+
+	<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt|Vollkorn' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  				<h1 class="header">People to Kill</h1>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3 underline">
+  				<img src="images/underline.png">
+  			</div>
+  		</div>
+
+  		<div class="row">
+  			<div class="col-md-8 col-md-offset-2">
+  				<p class="instructions">This app was inspired by that <a href="http://youtu.be/HEzyFy5KVac">one scene in the movie Billy Madison where Steve Buscemi had a list of people to kill</a>. Hilarious. Enter a new name in the text box at the bottom of the list. Hover over a name and click the lipstick to act out your aggressions. Or click the X if you change your mind.</p>
+  			</div>
+		</div>
+	</div>
+		
+	<div class="container">
+		<div class="row hits">
+			<div class="col-md-1 col-md-offset-2">
+				<span class="lipstick"></span>
+			</div>
+			<div class="col-md-6">
+				<p class="hitEntry">
+					Billy Madison <img src="images/lipstick-stain.png" class="lips">
+				</p>
+			</div>
+			<div class="col-md-1">
+				<span class="glyphicon glyphicon-remove cancel"></span>
+			</div>
+		</div>
+		<div class="row hits">
+			<div class="col-md-1 col-md-offset-2">
+				<span class="lipstick"></span>
+			</div>
+			<div class="col-md-6">
+				<p class="hitEntry">
+					Abraham Lincoln <img src="images/lipstick-stain.png" class="lips">
+				</p>
+			</div>
+			<div class="col-md-1">
+				<span class="glyphicon glyphicon-remove cancel"></span>
+			</div>
+		</div>
+		<div class="row hits">
+			<div class="col-md-1 col-md-offset-2">
+				<span class="lipstick"></span>
+			</div>
+			<div class="col-md-6">
+				<p class="hitEntry">
+					Santa Claus <img src="images/lipstick-stain.png" class="lips">
+				</p>
+			</div>
+			<div class="col-md-1">
+				<span class="glyphicon glyphicon-remove cancel"></span>
+			</div>
+		</div>
+
+		<div class="row newHit">
+			<hr>
+			<div class="col-md-6 col-md-offset-3">
+				<input type="text" name="addHit" class="addHit" placeholder="Next Hit">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
